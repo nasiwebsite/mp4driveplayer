@@ -34,12 +34,8 @@ if($_GET['url'] != ""){
 				"sources":<?php echo $file?>
 			}],
 			.jwplayer.jw-flag-aspect-mode: '100%',
-			position: "absolute",
-      			top: "0",
-	      		left: "0",
 			allowfullscreen: true,
 			autostart: false,
-			height: '100vh',
 			width: '100%',
 			aspectratio: '16:9',			
 		});
