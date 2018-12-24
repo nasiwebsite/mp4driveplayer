@@ -37,7 +37,8 @@ if($_GET['url'] != ""){
 				"sources":<?php echo $file?>
 			}],
 			allowfullscreen: true,
-			autostart: false,	
+			autostart: false,
+			height: '100%',
 			width: '100%',
 			aspectratio: '16:9',
 		});
