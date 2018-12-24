@@ -16,7 +16,6 @@ if (isset($_COOKIE['PrivatePageLogin'])) {
 		$gid = get_drive_id($url);
 		$iframeid = my_simple_crypt($gid);
 		$linkdown = Drive($url);
-		$image = sprintf('https://drive.google.com/thumbnail?id=%s&authuser=0&sz=w640-h360-n-k-rw', $gid);
 		$file = '[{"type": "video/mp4", "label": "HD", "file": "'.$linkdown.'"}]';
 	}
 ?>
@@ -56,7 +55,7 @@ if (isset($_COOKIE['PrivatePageLogin'])) {
 	<script type="text/javascript">
 		jwplayer("myElement").setup({
 			playlist: [{
-				"image":"<?php echo $results['image']; ?>",
+				"image":"<?php echo $image?>",
 				"sources":<?php echo $file?>
 			}],
 			allowfullscreen: true,
