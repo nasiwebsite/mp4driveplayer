@@ -56,6 +56,7 @@ if (isset($_COOKIE['PrivatePageLogin'])) {
 	<script type="text/javascript">
 		jwplayer("myElement").setup({
 			playlist: [{
+				"image":"<?php echo $results['image']; ?>",
 				"sources":<?php echo $file?>
 			}],
 			allowfullscreen: true,
