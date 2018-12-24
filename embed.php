@@ -19,7 +19,7 @@ if($_GET['url'] != ""){
 	<style type='text/css'>
         body,
         .main {
-          height: 100vh;
+          height: 100%;
           margin: 0;
           overflow: hidden;
           position: absolute;
