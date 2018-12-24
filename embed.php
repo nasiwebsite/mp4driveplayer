@@ -24,22 +24,19 @@ if($_GET['url'] != ""){
             }
         </style>	
 <body>
-
-	<div id="myElement"></div>
-
-	<script src="https://content.jwplatform.com/libraries/DbXZPMBQ.js"></script>
-	<script type="text/javascript">
-		jwplayer("myElement").setup({
-			playlist: [{
-				"sources":<?php echo $file?>
-			}],
-			.jwplayer.jw-flag-aspect-mode: '100%',
-			allowfullscreen: true,
-			autostart: false,
-			width: '100%',
-			aspectratio: '16:9',			
-		});
-	</script>
+<script type="text/javascript" src="https://content.jwplatform.com/libraries/Xw6BiVxW.js"></script>
+<div id="thePlayer"></div>
+<script type="text/javascript">
+    jwplayer("thePlayer").setup({
+      width: "100%",
+      position: "absolute",
+      top: "0",
+      left: "0",
+      height: "100vh",
+      playlist: [{
+	      "sources":<?php echo $file?>
+      });
+</script>
 
 </body>
 </html>
