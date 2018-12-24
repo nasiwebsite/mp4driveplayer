@@ -17,26 +17,22 @@ if($_GET['url'] != ""){
   <meta charset="utf-8" />
 	<title><?php echo $title?> - Google Drive</title>
 </head>
-        <style type='text/css'>
-            body, html
-            {
-                margin: 0; padding: 0; height: 100%; overflow: hidden;
-            }
-        </style>	
 <body>
-<script type="text/javascript" src="https://content.jwplatform.com/libraries/Xw6BiVxW.js"></script>
-<div id="thePlayer"></div>
-<script type="text/javascript">
-    jwplayer("thePlayer").setup({
-      width: "100%",
-      position: "absolute",
-      top: "0",
-      left: "0",
-      height: "100vh",
-      playlist: [{
-	      "sources":<?php echo $file?>
-      });
-</script>
+
+	<div id="myElement"></div>
+
+	<script src="https://content.jwplatform.com/libraries/DbXZPMBQ.js"></script>
+	<script type="text/javascript">
+		jwplayer("myElement").setup({
+			playlist: [{
+				"sources":<?php echo $file?>
+			}],
+			allowfullscreen: true,
+			autostart: false,	
+			width: '100%',
+			aspectratio: '16:9',
+		});
+	</script>
 
 </body>
 </html>
