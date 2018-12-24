@@ -22,7 +22,7 @@ if($_GET['url'] != ""){
 
 	<div id="myElement"></div>
 
-	<script src="https://content.jwplatform.com/libraries/NQZ8oQJv.js"></script>
+	<script src="https://content.jwplatform.com/libraries/DbXZPMBQ.js"></script>
 	<script type="text/javascript">
 		jwplayer("myElement").setup({
 			playlist: [{
@@ -31,7 +31,7 @@ if($_GET['url'] != ""){
 			allowfullscreen: true,
 			autostart: false,	
 			width: '100%',
-			aspectratio: '16:9',
+			aspectratio: '16:9',			
 		});
 	</script>
 
