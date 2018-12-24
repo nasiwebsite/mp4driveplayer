@@ -17,7 +17,7 @@ if($_GET['url'] != ""){
   <meta charset="utf-8" />
 	<title><?php echo $title?> - Google Drive</title>
 	<style type='text/css'>
-        #myElement {
+        .jwplayer.jw-flag-aspect-mode {
           height: 100%;
           margin: 0;
           overflow: hidden;
