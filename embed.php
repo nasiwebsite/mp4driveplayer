@@ -33,6 +33,9 @@ if($_GET['url'] != ""){
 			playlist: [{
 				"sources":<?php echo $file?>
 			}],
+			position: "absolute",
+      			top: "0",
+	      		left: "0",
 			allowfullscreen: true,
 			autostart: false,
 			height: '100vh',
