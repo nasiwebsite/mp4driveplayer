@@ -21,7 +21,15 @@ if($_GET['url'] != ""){
 	<style type='text/css'>
             body, html, #myElement
             {
-                margin: 0; padding: 0; height: 100%; overflow: hidden;
+                    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: transparent;
             }
         </style>
 <body>
