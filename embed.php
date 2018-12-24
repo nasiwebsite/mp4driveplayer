@@ -33,6 +33,7 @@ if($_GET['url'] != ""){
 			playlist: [{
 				"sources":<?php echo $file?>
 			}],
+			.jwplayer.jw-flag-aspect-mode: '100%',
 			position: "absolute",
       			top: "0",
 	      		left: "0",
