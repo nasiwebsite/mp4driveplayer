@@ -16,31 +16,19 @@ if($_GET['url'] != ""){
 <head>
   <meta charset="utf-8" />
 	<title><?php echo $title?> - Google Drive</title>
-	<style type='text/css'>
-        .jwplayer.jw-flag-aspect-mode {
-          height: 100%;
-          margin: 0;
-          overflow: hidden;
-          position: absolute;
-          width: 100%;
-        }
-</style>
 </head>
 <body>
 
-	<div id="myElement"></div>
+	<div id="picasa"></div>
 
-	<script src="https://content.jwplatform.com/libraries/DbXZPMBQ.js"></script>
+	<script src="//ssl.p.jwpcdn.com/player/v/8.4.1/jwplayer.js"></script>
 	<script type="text/javascript">
-		jwplayer("myElement").setup({
+		jwplayer("picasa").setup({
 			playlist: [{
 				"sources":<?php echo $file?>
 			}],
 			allowfullscreen: true,
 			autostart: false,
-			height: '100%',
-			width: '100%',
-			aspectratio: '16:9',
 		});
 	</script>
 
