@@ -19,16 +19,18 @@ if($_GET['url'] != ""){
 </head>
 <body>
 
-	<div id="picasa"></div>
+	<div id="myElement"></div>
 
-	<script src="//ssl.p.jwpcdn.com/player/v/8.4.1/jwplayer.js"></script>
+	<script src="https://content.jwplatform.com/libraries/DbXZPMBQ.js"></script>
 	<script type="text/javascript">
-		jwplayer("picasa").setup({
+		jwplayer("myElement").setup({
 			playlist: [{
 				"sources":<?php echo $file?>
 			}],
 			allowfullscreen: true,
-			autostart: false,
+			autostart: false,	
+			width: '100%',
+			aspectratio: '12:5',
 		});
 	</script>
 
