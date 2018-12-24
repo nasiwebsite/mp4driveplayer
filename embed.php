@@ -17,11 +17,12 @@ if($_GET['url'] != ""){
   <meta charset="utf-8" />
 	<title><?php echo $title?> - Google Drive</title>
 </head>
+	
 <body>
 
 	<div id="myElement"></div>
 
-	<script src="https://content.jwplatform.com/libraries/DbXZPMBQ.js"></script>
+	<script src="https://content.jwplatform.com/libraries/NQZ8oQJv.js"></script>
 	<script type="text/javascript">
 		jwplayer("myElement").setup({
 			playlist: [{
@@ -30,7 +31,7 @@ if($_GET['url'] != ""){
 			allowfullscreen: true,
 			autostart: false,	
 			width: '100%',
-			aspectratio: '12:5',
+			aspectratio: '16:9',
 		});
 	</script>
 
