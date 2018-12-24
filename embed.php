@@ -19,19 +19,18 @@ if($_GET['url'] != ""){
 <script src="https://content.jwplatform.com/libraries/DbXZPMBQ.js"></script>
 </head>
 	<style type='text/css'>
-            body, html, #myElement
-            {
-                    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    background: transparent;
-            }
-        </style>
+            #myElement{
+		    position: absolute;
+		    top: 0;
+		    right: 0;
+		    bottom: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		    margin: auto;
+		    background: transparent;
+		}
+	</style>
 <body>
 
 	<div id="myElement"></div>
