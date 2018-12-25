@@ -16,7 +16,6 @@ if($_GET['url'] != ""){
 <head>
   <meta charset="utf-8" />
 	<title><?php echo $title?> - Google Drive</title>
-<script src="https://content.jwplatform.com/libraries/DbXZPMBQ.js"></script>
 </head>
 	<style type='text/css'>
             #myElement{
@@ -32,6 +31,7 @@ if($_GET['url'] != ""){
 <body>
 
 	<div id="myElement"></div>
+	<script src="//ssl.p.jwpcdn.com/player/v/8.4.1/jwplayer.js"></script>
 	<script type="text/javascript">
 		jwplayer("myElement").setup({
 			playlist: [{
