@@ -40,7 +40,6 @@ if($_GET['url'] != ""){
 			}],
 			allowfullscreen: true,
 			autostart: false,	
-			height: '100vh',
 			aspectratio: '16:9',
 		});
 	</script>
