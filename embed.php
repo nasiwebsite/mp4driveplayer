@@ -18,7 +18,7 @@ if($_GET['url'] != ""){
 	<title><?php echo $title?> - Google Drive</title>
 </head>
 	<style type='text/css'>
-            #myElement{
+            body, #myElement{
 		    position: absolute;
 		    top: 0;
 		    right: 0;
