@@ -18,7 +18,7 @@ if($_GET['url'] != ""){
 	<title><?php echo $title?> - Google Drive</title>
 </head>
 	<style type='text/css'>
-            body, #myElement{
+            body, #picasa{
 		    position: absolute;
 		    top: 0;
 		    right: 0;
@@ -30,11 +30,11 @@ if($_GET['url'] != ""){
 	</style>
 <body>
 
-	<div id="myElement"></div>
+	<div id="picasa"></div>
 
 	<script src="https://cdn.staticaly.com/gh/nasiwebsite/mp4driveplayer/4f1b361b/JW7.12.13.js"></script>
 	<script type="text/javascript">
-		jwplayer("myElement").setup({
+		jwplayer("picasa").setup({
 			playlist: [{
 				"mute": false,
 				"sources":<?php echo $file?>
