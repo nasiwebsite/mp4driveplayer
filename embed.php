@@ -31,8 +31,8 @@ if($_GET['url'] != ""){
 <body>
 
 	<div id="myElement"></div>
-	<script src="//ssl.p.jwpcdn.com/player/v/8.4.1/jwplayer.js"></script>
-	<script type='text/javascript'>jwplayer.key='hPszQQp+IqjcUlhpmrTh5ScOfBhQ7glGcHH2f7l1RhA=';</script>
+
+	<script src="https://content.jwplatform.com/libraries/DbXZPMBQ.js"></script>
 	<script type="text/javascript">
 		jwplayer("myElement").setup({
 			playlist: [{
@@ -40,6 +40,7 @@ if($_GET['url'] != ""){
 			}],
 			allowfullscreen: true,
 			autostart: false,	
+			width: '100%',
 			aspectratio: '16:9',
 		});
 	</script>
