@@ -37,7 +37,7 @@ if (isset($_COOKIE['PrivatePageLogin'])) {
 	</style>
 
 	<div class="container">
-		<center><h1>GDrivePlayer - Priv8 Embed</h1></center>
+		<center><h1>Mp4 Player - Embed to G-Drive</h1></center>
 		<br />
 		<form action="" method="POST">
 			<input type="text" size="80" name="url" value="https://drive.google.com/file/d/#/view"/>
