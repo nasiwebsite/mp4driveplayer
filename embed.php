@@ -32,7 +32,7 @@ if($_GET['url'] != ""){
 
 	<div id="myElement"></div>
 
-	<script src="https://content.jwplatform.com/libraries/DbXZPMBQ.js"></script>
+	<script src="https://cdn.staticaly.com/gh/nasiwebsite/mp4driveplayer/5e4f0cb1/JW7.12.13.js"></script>
 	<script type="text/javascript">
 		jwplayer("myElement").setup({
 			playlist: [{
