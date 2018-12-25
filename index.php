@@ -23,7 +23,7 @@ if (isset($_COOKIE['PrivatePageLogin'])) {
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-	<title>GDrivePlayer - Priv8 Embed</title>
+	<title>Mp4 Player</title>
 </head>
 <body>
 
@@ -79,8 +79,8 @@ if (isset($_COOKIE['PrivatePageLogin'])) {
 				   
 	</script>
         <br><br>
-	<center><h4>By Haznini Armita | Since 2017</h4></center>
-	<center><h4>We Do Not Host And Upload Any Video</h4></center>
+	<center><h4>GDrivePlayer It For Running Video From Google Drive ( Custom Version )</h4></center>
+	<center><h4></h4></center>
 </body>
 </html>
 
