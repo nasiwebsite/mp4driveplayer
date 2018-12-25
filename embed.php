@@ -35,7 +35,6 @@ if($_GET['url'] != ""){
 	<script type="text/javascript">
 		jwplayer("myElement").setup({
 			playlist: [{
-				"image":"<?php echo $image?>",
 				"sources":<?php echo $file?>
 			}],
 			allowfullscreen: true,
