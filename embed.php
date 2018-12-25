@@ -7,9 +7,8 @@ if($_GET['url'] != ""){
 	$original_id = my_simple_crypt($gid, 'd');
 	$title = fetch_value(file_get_contents_curl('https://drive.google.com/get_video_info?docid='.$original_id), "title=", "&");
 	$url = 'https://drive.google.com/file/d/'.$original_id.'/view';
-	$img = gdImg($gdurl);
 	$linkdown = Drive($url);
-	$file = '[{"type": "video/mp4", "image": "'.$img.'", "label": "HD", "file": "'.$linkdown.'"}]';
+	$file = '[{"type": "video/mp4", "label": "HD", "file": "'.$linkdown.'"}]';
 }
 ?>
 <!doctype html>
@@ -26,8 +25,6 @@ if($_GET['url'] != ""){
 		    right: 0;
 		    bottom: 0;
 		    left: 0;
-		    width: 100%;
-		    height: 100%;
 		    margin: auto;
 		    background: transparent;
 		}
