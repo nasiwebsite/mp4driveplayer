@@ -32,6 +32,7 @@ if($_GET['url'] != ""){
 
 	<div id="myElement"></div>
 	<script src="//ssl.p.jwpcdn.com/player/v/8.4.1/jwplayer.js"></script>
+	<script type='text/javascript'>jwplayer.key='hPszQQp+IqjcUlhpmrTh5ScOfBhQ7glGcHH2f7l1RhA=';</script>
 	<script type="text/javascript">
 		jwplayer("myElement").setup({
 			playlist: [{
