@@ -53,14 +53,16 @@ if (isset($_COOKIE['PrivatePageLogin'])) {
 
 	<div id="myElement"></div>
 
-	<script src="https://cdn.staticaly.com/gh/nasiwebsite/mp4driveplayer/5e4f0cb1/JW7.12.13.js"></script>
+	<script src="https://content.jwplatform.com/libraries/DbXZPMBQ.js"></script>
 	<script type="text/javascript">
 		jwplayer("myElement").setup({
 			playlist: [{
-				"mute": false,
 				"sources":<?php echo $file?>
 			}],
 			allowfullscreen: true,
+			autostart: false,	
+			width: '100%',
+			aspectratio: '16:9',			
 		});
 		
 		player.addButton(
